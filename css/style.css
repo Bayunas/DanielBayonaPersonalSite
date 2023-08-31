@@ -1,0 +1,98 @@
+
+body{
+    background-color: #DBE2EF;
+}
+
+#hov:hover{
+    font-size: 17px;
+    color: #FFE2E2;
+}
+
+.intro{
+   background: linear-gradient(100deg, #1B262C, #0F4C75, #3282B8);
+   background-size: 400% 400%;
+
+   -webkit-animation: AnimationName 28s ease infinite;
+   -moz-animation: AnimationName 28s ease infinite;
+   animation: AnimationName 28s ease infinite;
+
+}
+
+.contact{
+    background: linear-gradient(100deg, #94A684, #AEC3AE, #E4E4D0);
+    background-size: 400% 400%;
+ 
+    -webkit-animation: AnimationName 28s ease infinite;
+    -moz-animation: AnimationName 28s ease infinite;
+    animation: AnimationName 28s ease infinite;
+ 
+ }
+
+.albums{
+    border-radius: 15%;
+    background: linear-gradient(134deg, #222831, #393E46, #00ADB5, #EEEEEE);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+
+}
+
+.projectsimg{
+    border-radius: 5%;
+}
+
+
+
+.sub{
+    background: linear-gradient(to right, #212121,  #323232, #0D7377, #E23E57 );
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.ppp{
+    border-radius: 60%;
+}
+
+.ppp{
+    border-color: black;
+    border: 2px solid;
+}
+
+
+.gradient-anim{
+    background: linear-gradient(175deg, #F4E0B9, #A8A196, #D8D9DA);
+    background-size: 400% 400%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
